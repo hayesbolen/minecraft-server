@@ -1,0 +1,6 @@
+{
+  "name": "Bedrock Server",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [19132],
+  "postCreateCommand": "chmod +x bedrock_server"
+}
